@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, sans-serif;
+}
+
+body {
+    background: #f3f6f5;
+    color: #222;
+}
+
+/* ================= NAVBAR ================= */
+.topbar {
+    background: linear-gradient(90deg, #064635, #0b6b43);
+    padding: 16px 0;
+}
+
+.nav-container {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    color: #fff;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+.nav-links a {
+    margin-left: 20px;
+    color: #dff4e9;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.nav-links a:hover {
+    color: #fff;
+}
+
+/* ================= HERO ================= */
+.hero {
+    background: linear-gradient(rgba(6,70,53,.85), rgba(6,70,53,.85));
+    color: #fff;
+    padding: 90px 0;
+}
+
+.hero-content {
+    width: 90%;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 20px;
+    max-width: 600px;
+    margin-bottom: 30px;
+}
+
+.primary-btn {
+    background: #064635 !important;
+    color: #ffffff;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+/* ================= FEATURES / MAIN ================= */
+.features {
+    width: 90%;
+    margin: 70px auto;
+}
+
+.features h2 {
+    font-size: 34px;
+    margin-bottom: 40px;
+    color: #033822;
+}
+
+/* ================= CARD ================= */
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,.12);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-6px);
+}
+
+.card h3 {
+    margin-bottom: 20px;
+    color: #0b6b43;
+}
+
+/* ================= FORM GRID (FIXES NOTEBOOK LOOK) ================= */
+.form-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 20px;
+}
+
+.form-grid label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+    color: #033822;
+}
+
+.form-grid input,
+.form-grid select,
+.form-grid textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 15px;
+}
+
+.form-grid textarea {
+    resize: vertical;
+}
+
+/* ================= TABLE ================= */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th {
+    background: #0b6b43;
+    color: #fff;
+    padding: 12px;
+    text-align: left;
+}
+
+.table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* ================= BLOOD / VOLUNTEER GRID ================= */
+.card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 28px;
+}
+
+.card span {
+    font-size: 38px;
+}
+
+/* ================= FOOTER ================= */
+.footer {
+    background: #064635;
+    color: #dff4e9;
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+}
